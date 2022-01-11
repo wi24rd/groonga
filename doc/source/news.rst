@@ -5,6 +5,16 @@
 News
 ====
 
+.. _release-11-1-2:
+
+Release 11.1.2 - 2022-01-29
+---------------------------
+
+Improvements
+------------
+
+* [httpd] Updated bundled nginx to 1.21.5.
+
 .. _release-11-1-1:
 
 Release 11.1.1 - 2021-12-29
