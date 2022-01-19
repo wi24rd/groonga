@@ -13,7 +13,21 @@ Release 11.1.2 - 2022-01-29
 Improvements
 ------------
 
+* [:doc:`reference/functions/snippet`] Added support for using the keyword of 32 or more.
+
+  * We could not specify the keyword of 32 or more with ``snippet`` until now.
+    However, we can specify the keyword of 32 or more by this improvement as below.
+
+    .. code-block::
+
 * [httpd] Updated bundled nginx to 1.21.5.
+
+Fixes
+-----
+
+* [:doc:`/reference/commands/load`] Fixed a crash bug when we load data with specifying a nonexistent column.
+
+  * This bug only occurs when we specify ``apache-arrow`` into ``input_type`` as the argument of ``load``.
 
 .. _release-11-1-1:
 
